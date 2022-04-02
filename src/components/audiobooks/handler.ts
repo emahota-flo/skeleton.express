@@ -1,6 +1,6 @@
 import express from 'express';
-import { log } from '@helper/logger';
-import { Audiobooks } from '@components/audiobooks/audiobooks.interfaces';
+import { log } from '../../helper/logger';
+import { Audiobooks } from './audiobooks.interfaces';
 
 export async function getAudioBooks(
   req: express.Request,
