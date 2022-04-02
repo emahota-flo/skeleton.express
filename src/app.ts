@@ -3,11 +3,12 @@ import { loadEnv } from './config';
 loadEnv();
 
 import { getEnv } from './helper/environment';
+import { initRoutes } from './routes/router';
 
 const app = express();
 
 app.use(express.json());
-app.use('/API/test', express.Router());
+initRoutes(app);
 
 const port = parseInt(getEnv('SERVER_PORT'), 10);
 app.listen(port, () => {
