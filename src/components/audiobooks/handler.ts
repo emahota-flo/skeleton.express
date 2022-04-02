@@ -17,6 +17,6 @@ export async function getAudioBooks(
       },
     ]);
   } catch (error: Error | any) {
-    return res.status(error.status).send(error?.message || error);
+    return res.status(error?.status || 400).send(error?.message || error);
   }
 }
