@@ -40,9 +40,9 @@
     "ts-node": "^9.1.1"
   },
   "bugs": {
-    "url": "https://github.com/workflow-intelligence-nexus/google.express/issues"
+    "url": "https://github.com/emahota-flo/skeleton.express/issues"
   },
-  "homepage": "https://github.com/workflow-intelligence-nexus/google.express#readme",
+  "homepage": "https://github.com/emahota-flo/skeleton.express#readme",
   "lint-staged": {
     "*": "prettier --write . --ignore-unknown"
   }
