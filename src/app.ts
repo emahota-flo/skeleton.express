@@ -2,8 +2,8 @@ import express from 'express';
 import { loadEnv } from './config';
 loadEnv();
 
-import { getEnv } from './helper/environment';
-import { initRoutes } from './routes/router';
+import { getEnv } from '@helper/environment';
+import { initRoutes } from '@routes/router';
 
 const app = express();
 

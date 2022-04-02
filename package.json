@@ -7,7 +7,7 @@
     "prod": "npm run build && npm run queue:up && nodemon --config nodemon.prod.json dist/app.js",
     "dev": "nodemon --config nodemon.dev.json src/app.ts",
     "local": "nodemon --config nodemon.local.json src/app.ts",
-    "sonarqube:up": "docker-compose -f docker-compose.yml up -d sonarqube",
+    "sonarqube:up": "docker-compose -f docker-compose.yml up -d sonarqube"
   },
   "engines": {
     "node": ">=14.17.0"

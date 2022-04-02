@@ -1,4 +1,4 @@
-import { log } from './logger';
+import { log } from '@helper/logger';
 
 export function ShowLog(showArgs?: boolean, message?: string) {
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
